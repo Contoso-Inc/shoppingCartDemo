@@ -1,0 +1,12 @@
+- apiVersion: developer.microsoft.com/v1
+  kind: Microsoft.Resources/resourceGroups
+  metadata:
+    name: mdwShoppingCartTest
+    namespace: contoso-inc.azure
+    title: mdwShoppingCartTest
+    description: Azure Resource Group
+    provider: plateng.azure.microsoft
+  spec:
+    id: /subscriptions/9cf9d38f-d8db-49b8-b0b1-e1af5fb3f005/resourceGroups/mdwShoppingCartTest
+  links:
+    
