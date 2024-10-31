@@ -9,7 +9,6 @@
     businessUnit: CEC-Div-234e
     squad: 
       name: eCommDevSquad
-      businessUnit: EC-234i
       members:
         - markweitzel
         - thomasdolby
