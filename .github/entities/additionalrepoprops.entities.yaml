@@ -7,4 +7,6 @@
     title: shoppingCartDemo
   relations:
     - type: Squad
-      target: squad:contoso-inc/contoso-inc.engineering/eCommDevSquad
+      target: contoso-inc/contoso-inc.engineering/eCommDevSquad
+    - type: Environment
+      target: devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
