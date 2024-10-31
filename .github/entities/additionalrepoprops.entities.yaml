@@ -5,6 +5,7 @@
     namespace: contoso-inc
     provider: github.com
     title: shoppingCartDemo
+  spec:
     businessUnit: CEC-Div-234e
     squad: 
       name: eCommDevSquad
@@ -14,7 +15,7 @@
         - thomasdolby
         - rufusdusol
         - danielsol
-        - dennislloyd      
+        - dennislloyd 
   links:
     - url: https://portal.azure.com/#@msdevplat.onmicrosoft.com/resource/subscriptions/55acd01d-a405-4a4b-bc1b-c85300b0ff62/resourceGroups/project-alpha-mdw-ecomm-integration/overview
       title: Azure Deployment Environment
