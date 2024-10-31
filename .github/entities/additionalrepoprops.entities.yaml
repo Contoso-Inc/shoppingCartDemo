@@ -11,6 +11,6 @@
       type: web
   relations:
     - type: Squad
-      targetRef: Squad:contoso-inc/contoso-inc.engineering/eCommDevSquad
+      targetRef: Squad:github.com/contoso-inc/contoso-inc.engineering/eCommDevSquad
     - type: Environment
       targetRef: Environment:devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
