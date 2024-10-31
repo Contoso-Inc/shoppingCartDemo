@@ -1,0 +1,10 @@
+- apiVersion: developer.microsoft.com/v1
+  kind: Repository
+  metadata:
+    name: shoppingCartDemo
+    namespace: contoso-inc
+    provider: github.com
+    title: shoppingCartDemo
+  relations:
+    - type: Squad
+      target: squad:contoso-inc/contoso-inc.engineering/eCommDevSquad
