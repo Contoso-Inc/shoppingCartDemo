@@ -16,8 +16,3 @@
       - rufusdusol
       - danielsol
       - dennislloyd
-  relations: 
-    - type: Repository
-      target: 'repo:github.com/contoso-inc/shoppingCartDemo'
-    - type: Template
-      target: 'template:github.com/Contoso-Inc/todo-java-mongo-aca'
