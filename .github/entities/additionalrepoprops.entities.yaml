@@ -5,12 +5,12 @@
     namespace: contoso-inc
     provider: github.com
     title: shoppingCartDemo
+  links:
+    - url: https://portal.azure.com/#@msdevplat.onmicrosoft.com/resource/subscriptions/55acd01d-a405-4a4b-bc1b-c85300b0ff62/resourceGroups/project-alpha-mdw-ecomm-integration/overview
+      title: Azure Deployment Environment
+      type: azure
   relations:
     - type: Squad
       targetRef: Squad:contoso-inc/contoso-inc.engineering/eCommDevSquad
     - type: Environment
       targetRef: Environment:devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
-    - type: operation
-      targetRef: Operation:devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
-    - type: template
-      targetRef: Template:devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
