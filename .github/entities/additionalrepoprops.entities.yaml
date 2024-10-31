@@ -7,8 +7,10 @@
     title: shoppingCartDemo
   relations:
     - type: Squad
-      target: contoso-inc/contoso-inc.engineering/eCommDevSquad
+      target: Squad:contoso-inc/contoso-inc.engineering/eCommDevSquad
     - type: Environment
-      target: Environment:devcenter.azure.com/devplatformcenter/Project-Alpha/Project-Alpha-mdw-ecomm-integration
+      target: Environment:devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
     - type: operation
       target: Operation:devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
+    - type: template
+      target: Template:devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
