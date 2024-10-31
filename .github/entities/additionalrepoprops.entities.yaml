@@ -8,7 +8,7 @@
   links:
     - url: https://portal.azure.com/#@msdevplat.onmicrosoft.com/resource/subscriptions/55acd01d-a405-4a4b-bc1b-c85300b0ff62/resourceGroups/project-alpha-mdw-ecomm-integration/overview
       title: Azure Deployment Environment
-      type: azure
+      type: web
   relations:
     - type: Squad
       targetRef: Squad:contoso-inc/contoso-inc.engineering/eCommDevSquad
