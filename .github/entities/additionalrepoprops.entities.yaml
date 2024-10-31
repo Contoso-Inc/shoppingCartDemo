@@ -5,12 +5,20 @@
     namespace: contoso-inc
     provider: github.com
     title: shoppingCartDemo
+    businessUnit: CEC-Div-234e
+    squad: 
+      name: eCommDevSquad
+      businessUnit: EC-234i
+      members:
+        - markweitzel
+        - thomasdolby
+        - rufusdusol
+        - danielsol
+        - dennislloyd      
   links:
     - url: https://portal.azure.com/#@msdevplat.onmicrosoft.com/resource/subscriptions/55acd01d-a405-4a4b-bc1b-c85300b0ff62/resourceGroups/project-alpha-mdw-ecomm-integration/overview
       title: Azure Deployment Environment
       type: web
   relations:
-    - type: Squad
-      targetRef: Squad:github.com/contoso-inc/eCommDevSquad
     - type: Environment
       targetRef: Environment:devcenter.azure.com/devplatformcenter/Project-Alpha-mdw-ecomm-integration
