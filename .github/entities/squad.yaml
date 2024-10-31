@@ -8,7 +8,7 @@
     provider: contoso-inc
   spec:
     type: squadDefinition
-    id: /github.com/Contoso-Inc/shoppingCartDemo/entities/eCommDevSquad
+    id: /Contoso-Inc/eCommDevSquad
     businessUnit: EC-234i
     members:
       - markweitzel
